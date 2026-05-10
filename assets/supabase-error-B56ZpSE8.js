@@ -1,0 +1,1 @@
+function i(o){if(!o)return"An unknown error occurred";console.error("[Supabase error]",o);const n=o,s=(n==null?void 0:n.code)??"",t=(n==null?void 0:n.message)??String(o),r=(n==null?void 0:n.details)??"",c=(n==null?void 0:n.hint)??"";return`DEBUG - Code: ${s}, Msg: ${t}, Details: ${r}, Hint: ${c}`}export{i as p};
